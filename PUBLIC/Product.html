@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Male Fashion</title>
+    <link rel="stylesheet" href="/STYLE/Product.css">
+</head>
+
+<body>
+    
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Our Products</h1>
+        <a class="back-home" href="New.html">← Back to Home</a>
+    </header>
+
+    <!-- Products Section -->
+    <section class="product-section">
+
+        <div class="product-container">
+
+            <!-- 18 PRODUCT ITEMS -->
+            <!-- Replace the src with your real images -->
+
+            <!-- PRODUCT 1 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/047b65c35c37f0b697bf7d7cf1d8791a.jpg" alt="Product">
+                <p class="p-name">Crop Top</p>
+            </div>
+
+            <!-- PRODUCT 2 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/068c53ddb4f5f93fb7dc69c1edbc1cf1.jpg" alt="Product">
+                <p class="p-name">Blue Denim</p>
+            </div>
+
+            <!-- PRODUCT 3 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/0b673d04ddca036f6e2d3e2bac6738a0.jpg" alt="Product">
+                <p class="p-name">Green suit</p>
+            </div>
+
+            <!-- PRODUCT 4 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/146a502384360b650305c71a38834157.jpg" alt="Product">
+                <p class="p-name">Jeans Set</p>
+            </div>
+
+            <!-- PRODUCT 5 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/1ef41e4ddc4e61ebe250c580a907cc93.jpg" alt="Product">
+                <p class="p-name">PlayBoy Set</p>
+            </div>
+
+            <!-- PRODUCT 6 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/1f966674d2ef5cf8e89b1a10d74e2d41.jpg" alt="Product">
+                <p class="p-name">CropTop Hoddie</p>
+            </div>
+
+            <!-- PRODUCT 7 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/22ea7dfe4d54f379e6f015740a60db60.jpg" alt="Product">
+                <p class="p-name">Joggers</p>
+            </div>
+
+            <!-- PRODUCT 8 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/3177640e429cf1ae214656e64c9c4bd3.jpg" alt="Product">
+                <p class="p-name">Canvas</p>
+            </div>
+
+            <!-- PRODUCT 9 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/3deb0fa0f4d72e4dcbe15423301e6d0b.jpg" alt="Product">
+                <p class="p-name">Slim Fit Suit</p>
+            </div>
+
+            <!-- PRODUCT 10 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/5831a3438dea1ee3ecbf072c15a73fc7.jpg" alt="Product">
+                <p class="p-name">Long-Sleeved T shirt</p>
+            </div>
+
+            <!-- PRODUCT 11 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/6371018ea1920bf870fc4a7544bebdfe.jpg" alt="Product">
+                <p class="p-name">Brown Suit</p>
+            </div>
+
+            <!-- PRODUCT 12 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/63ad83882e78cd2e42e68fa3d746cfc4.jpg" alt="Product">
+                <p class="p-name">Nike Set</p>
+            </div>
+
+            <!-- PRODUCT 13 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/755f0bad3ef0f9d85d268597d2b064c9.jpg" alt="Product">
+                <p class="p-name">Laddies Jeans</p>
+            </div>
+
+            <!-- PRODUCT 14 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/7583efad6a5c30505eef660da5e2e841.jpg" alt="Product">
+                <p class="p-name">Pink Sets</p>
+            </div>
+
+            <!-- PRODUCT 15 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/84c651ff5859a8a03d8f56b53ab207c1.jpg" alt="Product">
+                <p class="p-name">Ladies Jorgans</p>
+            </div>
+
+            <!-- PRODUCT 16 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/970ea9e2ac2571e6606b7b4ba19713f9.jpg" alt="Product">
+                <p class="p-name">NY Sets</p>
+            </div>
+
+            <!-- PRODUCT 17 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/9d7e29e7caa577609ceb1f29415bb163.jpg" alt="Product">
+                <p class="p-name">PinkDEX Sets</p>
+            </div>
+
+            <!-- PRODUCT 18 -->
+            <div class="product-card">
+                <img src="/ASSETS/Project pic/a336d3019f4af9ef9678b5dd31b0b733.jpg" alt="Product">
+                <p class="p-name">FashionNOVA</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+        // Progress Bar Script
+        window.onscroll = function () {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            let scrolled = (winScroll / height) * 100;
+            document.getElementById("progressBar").style.width = scrolled + "%";
+        };
+    </script>
+
+    <!-- Footer -->
+  <footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- COLUMN 1 -->
+        <div class="footer-col">
+            <h2 class="logo">ADEX<span>fashion.</span></h2>
+            <p>
+                The customer is at the heart of our unique business model, 
+                which includes design.
+            </p>
+
+            <div class="payments">
+                <img src="/ASSETS/download11.jpeg" alt="">
+                <img src="/ASSETS/download12.jpeg" alt="">
+                <img src="/ASSETS/download13.jpeg" alt="">
+                <img src="/ASSETS/download14.jpeg" alt="">
+                <img src="/ASSETS/download15.jpeg" alt="">
+            </div>
+        </div>
+
+        <!-- COLUMN 2 -->
+        <div class="footer-col">
+            <h4>SHOPPING</h4>
+            <ul>
+                <li><a href="#">Clothing Store</a></li>
+                <li><a href="#">Trending Shoes</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </div>
+
+        <!-- COLUMN 3 -->
+        <div class="footer-col">
+            <h4>SHOPPING</h4>
+            <ul>
+                <li><a href="Contact.html">Contact Us</a></li>
+                <li><a href="payment.html">Payment Methods</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Return & Exchanges</a></li>
+            </ul>
+        </div>
+
+        <!-- COLUMN 4 -->
+        <div class="footer-col">
+            <h4>NEWSLETTER</h4>
+            <p>Be the first to know about new arrivals, look books, sales & promos!</p>
+
+            <div class="newsletter">
+                <input type="text" placeholder="Your email">
+                <span class="send-icon">▢</span>
+            </div>
+        </div>
+
+    </div>
+
+    <hr class="footer-line">
+
+    <p class="copyright">
+        Copyright © 2025 All rights reserved | This template is made 
+        <span class="heart">▢</span> by <span class="colorlib">Elisha</span>
+    </p>
+</footer>
+
+
+</body>
+</html>
+

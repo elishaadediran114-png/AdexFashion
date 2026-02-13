@@ -1,0 +1,246 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #111; /* Page background */
+color: #fff;
+}
+
+
+/* Container */
+.payment-container {
+display: flex;
+justify-content: center;
+padding: 40px 20px;
+}
+
+
+.payment-box {
+background: #1b1b1b;
+padding: 30px;
+border-radius: 10px;
+width: 100%;
+max-width: 500px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+
+
+h2 {
+text-align: center;
+margin: 0;
+}
+label {
+margin-bottom: 5px;
+display: block;
+font-weight: bold;
+}
+
+
+input, select {
+width: 100%;
+padding: 12px;
+border-radius: 6px;
+border: none;
+}
+
+
+.payment-methods {
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-top: 10px;
+}
+
+
+.payment-methods label {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+label {
+margin-bottom: 5px;
+display: block;
+font-weight: bold;
+}
+
+
+input, select {
+width: 100%;
+padding: 12px;
+border-radius: 6px;
+border: none;
+}
+
+
+.payment-methods {
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin-top: 10px;
+}
+
+
+.payment-methods label {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+button {
+padding: 15px;
+background-color: #e94560;
+border: none;
+color: white;
+font-size: 16px;
+font-weight: bold;
+border-radius: 8px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+
+button:hover {
+background-color: #c5344d;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+.payment-box {
+padding: 20px;
+}
+
+
+h2 {
+font-size: 20px;
+}
+}
+
+ /* ================= FOOTER ================= */
+.footer{
+  background:#111;
+  color:#bbb;
+  padding:60px;
+}
+
+.footer-container{
+  display:flex;
+  gap:40px;
+  flex-wrap:wrap;
+}
+
+.footer-col{
+  flex:1;
+  min-width:220px;
+}
+
+.footer-col h4,
+.footer-col h2{
+  color:#fff;
+  margin-bottom:15px;
+}
+
+.footer-col ul{
+  list-style:none;
+}
+
+.footer-col ul li{
+  margin-bottom:8px;
+}
+
+.footer-col ul li a{
+  color:#bbb;
+  text-decoration:none;
+}
+
+.payments img{
+  width:40px;
+  margin-right:5px;
+}
+
+.newsletter{
+  display:flex;
+  margin-top:10px;
+}
+
+.newsletter input{
+  flex:1;
+  padding:10px;
+  border:none;
+}
+
+.send-icon{
+  background:#e53637;
+  padding:10px;
+  color:#fff;
+}
+
+.footer-line{
+  margin:40px 0;
+  border:0.5px solid #333;
+}
+
+.copyright{
+  text-align:center;
+  font-size:14px;
+}
+
+.colorlib{
+  color:#e53637;
+}
+/* ------------------ */
+/* RESPONSIVE */
+@media(max-width:900px){
+
+  .contact-container{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .form-box, .contact-image{
+    flex:1 1 100%;
+  }
+
+  .contact-hero h1{
+    font-size:32px;
+  }
+
+  .contact-hero p{
+    font-size:16px;
+  }
+
+  .nav a{
+    margin-left:15px;
+  }
+}
+
+@media(max-width:500px){
+
+  .contact-hero h1{
+    font-size:26px;
+  }
+
+  .contact-hero p{
+    font-size:14px;
+  }
+
+  .btn{
+    width:100%;
+    text-align:center;
+  }
+}
+
+@media(max-width:768px){
+  .container{
+    flex-direction: column;
+    text-align: center;
+  }
+ }

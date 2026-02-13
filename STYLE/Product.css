@@ -1,0 +1,192 @@
+/* Progress Bar */
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #eee;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.progress-bar {
+    height: 8px;
+    width: 0%;
+    background: #e53637; /* Red color like Male Fashion theme */
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 70px 20px 20px;
+}
+
+.header h1 {
+    font-size: 40px;
+    color: #333;
+}
+
+.back-home {
+    display: inline-block;
+    margin-top: 10px;
+    color: #e53637;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+/* Product Section */
+.product-section {
+    padding: 30px 40px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.product-card {
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding-bottom: 10px;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.product-card img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.p-name {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+ /* ================= FOOTER ================= */
+.footer{
+  background:#111;
+  color:#bbb;
+  padding:60px;
+}
+
+.footer-container{
+  display:flex;
+  gap:40px;
+  flex-wrap:wrap;
+}
+
+.footer-col{
+  flex:1;
+  min-width:220px;
+}
+
+.footer-col h4,
+.footer-col h2{
+  color:#fff;
+  margin-bottom:15px;
+}
+
+.footer-col ul{
+  list-style:none;
+}
+
+.footer-col ul li{
+  margin-bottom:8px;
+}
+
+.footer-col ul li a{
+  color:#bbb;
+  text-decoration:none;
+}
+
+.payments img{
+  width:40px;
+  margin-right:5px;
+}
+
+.newsletter{
+  display:flex;
+  margin-top:10px;
+}
+
+.newsletter input{
+  flex:1;
+  padding:10px;
+  border:none;
+}
+
+.send-icon{
+  background:#e53637;
+  padding:10px;
+  color:#fff;
+}
+
+.footer-line{
+  margin:40px 0;
+  border:0.5px solid #333;
+}
+
+.copyright{
+  text-align:center;
+  font-size:14px;
+}
+
+.colorlib{
+  color:#e53637;
+}
+/* ------------------ */
+/* RESPONSIVE */
+@media(max-width:900px){
+
+  .contact-container{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .form-box, .contact-image{
+    flex:1 1 100%;
+  }
+
+  .contact-hero h1{
+    font-size:32px;
+  }
+
+  .contact-hero p{
+    font-size:16px;
+  }
+
+  .nav a{
+    margin-left:15px;
+  }
+}
+
+@media(max-width:500px){
+
+  .contact-hero h1{
+    font-size:26px;
+  }
+
+  .contact-hero p{
+    font-size:14px;
+  }
+
+  .btn{
+    width:100%;
+    text-align:center;
+  }
+}
+
+@media(max-width:768px){
+  .container{
+    flex-direction: column;
+    text-align: center;
+  }
+ }
+.footer-col span{
+    color: #e53637;
+}
